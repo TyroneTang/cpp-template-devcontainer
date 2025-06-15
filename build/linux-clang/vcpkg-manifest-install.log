@@ -1,0 +1,18 @@
+Detecting compiler hash for triplet x64-linux...
+Compiler found: /usr/bin/c++
+Detecting compiler hash for triplet x64-linux-dynamic...
+Compiler found: /usr/bin/c++
+The following packages are already installed:
+    fmt:x64-linux-dynamic@11.0.2
+  * vcpkg-cmake:x64-linux@2024-04-23
+  * vcpkg-cmake-config:x64-linux@2024-05-23
+The package fmt provides CMake targets:
+
+    find_package(fmt CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE fmt::fmt)
+
+    # Or use the header-only version
+    find_package(fmt CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE fmt::fmt-header-only)
+
+All requested installations completed successfully in: 74.8 us

@@ -1,0 +1,14 @@
+{
+  "revision": 0,
+  "rules": [
+    {
+      "primary-output": "CMakeFiles/Rocket.dir/Debug/main.cpp.o",
+      "requires": [
+        {
+          "logical-name": "utilities"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

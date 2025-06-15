@@ -1,0 +1,38 @@
+[
+{
+  "directory": "/root/workspace/build/linux-clang",
+  "command": "/usr/bin/clang++ -DFMT_SHARED -DCMAKE_INTDIR=\\\"Debug\\\" -isystem /root/workspace/build/linux-clang/vcpkg_installed/x64-linux-dynamic/include -g -std=gnu++23 -fcolor-diagnostics @CMakeFiles/Rocket.dir/Debug/main.cpp.o.modmap -o CMakeFiles/Rocket.dir/Debug/main.cpp.o -c /root/workspace/main.cpp",
+  "file": "/root/workspace/main.cpp",
+  "output": "CMakeFiles/Rocket.dir/Debug/main.cpp.o"
+},
+{
+  "directory": "/root/workspace/build/linux-clang",
+  "command": "/usr/bin/clang++ -DFMT_SHARED -DCMAKE_INTDIR=\\\"Debug\\\" -isystem /root/workspace/build/linux-clang/vcpkg_installed/x64-linux-dynamic/include -g -std=gnu++23 -fcolor-diagnostics @CMakeFiles/Rocket.dir/Debug/utilities.cppm.o.modmap -o CMakeFiles/Rocket.dir/Debug/utilities.cppm.o -c /root/workspace/utilities.cppm",
+  "file": "/root/workspace/utilities.cppm",
+  "output": "CMakeFiles/Rocket.dir/Debug/utilities.cppm.o"
+},
+{
+  "directory": "/root/workspace/build/linux-clang",
+  "command": "/usr/bin/clang++ -DFMT_SHARED -DCMAKE_INTDIR=\\\"Release\\\" -isystem /root/workspace/build/linux-clang/vcpkg_installed/x64-linux-dynamic/include -O3 -DNDEBUG -std=gnu++23 -fcolor-diagnostics @CMakeFiles/Rocket.dir/Release/main.cpp.o.modmap -o CMakeFiles/Rocket.dir/Release/main.cpp.o -c /root/workspace/main.cpp",
+  "file": "/root/workspace/main.cpp",
+  "output": "CMakeFiles/Rocket.dir/Release/main.cpp.o"
+},
+{
+  "directory": "/root/workspace/build/linux-clang",
+  "command": "/usr/bin/clang++ -DFMT_SHARED -DCMAKE_INTDIR=\\\"Release\\\" -isystem /root/workspace/build/linux-clang/vcpkg_installed/x64-linux-dynamic/include -O3 -DNDEBUG -std=gnu++23 -fcolor-diagnostics @CMakeFiles/Rocket.dir/Release/utilities.cppm.o.modmap -o CMakeFiles/Rocket.dir/Release/utilities.cppm.o -c /root/workspace/utilities.cppm",
+  "file": "/root/workspace/utilities.cppm",
+  "output": "CMakeFiles/Rocket.dir/Release/utilities.cppm.o"
+},
+{
+  "directory": "/root/workspace/build/linux-clang",
+  "command": "/usr/bin/clang++ -DFMT_SHARED -DCMAKE_INTDIR=\\\"RelWithDebInfo\\\" -isystem /root/workspace/build/linux-clang/vcpkg_installed/x64-linux-dynamic/include -O2 -g -DNDEBUG -std=gnu++23 -fcolor-diagnostics @CMakeFiles/Rocket.dir/RelWithDebInfo/main.cpp.o.modmap -o CMakeFiles/Rocket.dir/RelWithDebInfo/main.cpp.o -c /root/workspace/main.cpp",
+  "file": "/root/workspace/main.cpp",
+  "output": "CMakeFiles/Rocket.dir/RelWithDebInfo/main.cpp.o"
+},
+{
+  "directory": "/root/workspace/build/linux-clang",
+  "command": "/usr/bin/clang++ -DFMT_SHARED -DCMAKE_INTDIR=\\\"RelWithDebInfo\\\" -isystem /root/workspace/build/linux-clang/vcpkg_installed/x64-linux-dynamic/include -O2 -g -DNDEBUG -std=gnu++23 -fcolor-diagnostics @CMakeFiles/Rocket.dir/RelWithDebInfo/utilities.cppm.o.modmap -o CMakeFiles/Rocket.dir/RelWithDebInfo/utilities.cppm.o -c /root/workspace/utilities.cppm",
+  "file": "/root/workspace/utilities.cppm",
+  "output": "CMakeFiles/Rocket.dir/RelWithDebInfo/utilities.cppm.o"
+}
+]

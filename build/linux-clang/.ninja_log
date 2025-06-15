@@ -1,0 +1,11 @@
+# ninja log v6
+2	28	1749979019036556980	CMakeFiles/Rocket.dir/Debug/utilities.cppm.o.ddi	5e9e136c0ae9f487
+49	53	1750000228728496872	/root/workspace/build/linux-clang/CMakeFiles/Rocket.dir/Debug/CXXModules.json	86f24cbc03e5c2a4
+49	53	1750000228728496872	CMakeFiles/Rocket.dir/Debug/utilities.cppm.o.modmap	86f24cbc03e5c2a4
+3	49	1750000228682497227	CMakeFiles/Rocket.dir/Debug/main.cpp.o.ddi	1fc93c86feac129a
+49	53	1750000228728496872	CMakeFiles/Rocket.dir/Debug/CXX.dd	86f24cbc03e5c2a4
+65	135	1749979019164557537	CMakeFiles/Rocket.dir/Debug/utilities.cppm.o	adbebae23102a56
+769	845	1750000229448491319	Debug/Rocket	9ba12e64217393c2
+49	53	1750000228728496872	CMakeFiles/Rocket.dir/Debug/main.cpp.o.modmap	86f24cbc03e5c2a4
+65	135	1749979019164557537	CMakeFiles/Rocket.dir/Debug/utilities.pcm	adbebae23102a56
+53	769	1750000228732496841	CMakeFiles/Rocket.dir/Debug/main.cpp.o	d16a38af9784c508

@@ -1,0 +1,21 @@
+services:
+  devcontainer_app:
+    container_name: devcontainer_app
+    image: localhost/cpp_base:latest
+    working_dir: /root/workspace
+    network_mode: "host"
+    ipc: host
+    tty: true
+    stdin_open: true
+    privileged: true
+    security_opt:
+      - seccomp:unconfined
+    cap_add:
+      - ALL
+    volumes:
+      - $PWD/:/root/workspace
+      - /usr/local/share/ca-certificates:/usr/local/share/ca-certificates
+      - /etc/ssl/certs:/etc/ssl/certs
+      # - $HOME/.bashrc:/root/.bashrc
+      - $HOME/.gitconfig:/root/.gitconfig
+      - $HOME/Documents/oh_my_posh:/root/Documents/oh_my_posh
