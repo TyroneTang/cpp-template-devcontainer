@@ -1,6 +1,0 @@
-ninja_dyndep_version = 1.0
-build CMakeFiles/Rocket.dir/Debug/main.cpp.o: dyndep | CMakeFiles/Rocket.dir/Debug/utilities.pcm
-
-build CMakeFiles/Rocket.dir/Debug/utilities.cppm.o | CMakeFiles/Rocket.dir/Debug/utilities.pcm: dyndep
-  restat = 1
-
